@@ -1,5 +1,4 @@
 name: Ejecutar prueba.js
-name: Ejecutar prueba.js
 
 on:
   push:
