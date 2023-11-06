@@ -1,0 +1,21 @@
+name: Ejecutar prueba.js
+name: Ejecutar prueba.js
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código fuente
+        uses: actions/checkout@v2
+
+      - name: Ejecutar prueba.js
+        run: node prueba.js
+
+        
+        
